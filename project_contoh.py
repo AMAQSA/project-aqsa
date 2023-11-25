@@ -169,11 +169,7 @@ if jenis_game == "discord":
             a = a + 1
             await ctx.send("halo" + str(a))
 
-    @bot.command()
-    async def fabian(ctx):
-        for i in range(5):
-            await ctx.send("fabian ga respon")
-            time.sleep(1)
+    
     @bot.command()
     async def check(ctx):
         if ctx.message.attachments:
@@ -185,4 +181,4 @@ if jenis_game == "discord":
         else:
             await ctx.send("Anda lupa mengunggah gambar :(")
 
-    bot.run("MTEwNjgwNTAxMDI5NTE3MzE3MA.G-FuUd.EcrHGkhOQ5dTUQ4FfMN027NiREIpDENnYBZRe4")
+    bot.run("TOKEN")
